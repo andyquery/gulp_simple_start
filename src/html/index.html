@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('parts/head.html')
+
+<body class="page__body">
+  <div class="site-container">
+    @include('parts/header.html')
+    <main class="main">
+      <picture>
+        <source srcset="img/blog-card-4.png" type="image/webp">
+        <img loading="lazy" src="" class="image" width="300" height="300" alt="Обложка канала MaxGraph">
+      </picture>
+    </main>
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        ...
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+    
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+    @include('parts/footer.html')
+    <!-- @include('html/h1.html') пример include -->
+  </div>
+</body>
+
+</html>
