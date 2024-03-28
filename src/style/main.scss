@@ -1,20 +1,6 @@
 // базовые подключения
-@import "vars";
-// @import "mixins";
-// @import "fonts";
-@import "settings";
+@import "global";
+@import "general";
 
 // подключения компонентов страницы
 // @import "./components/header";
-
-// тестовые стили, удалите их
-.page__body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: var(--vh);
-}
-.swiper {
-  width: 600px;
-  height: 400px;
-}
