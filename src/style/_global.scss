@@ -1,13 +1,14 @@
 // если вы хотите использовать sass-переменные - удалите root
 :root {
 	// base
-	--font-family: "Open Sans", sans-serif;
+	--font-family: "Cormorant", sans-serif;
 	--content-width: 1170px;
 	--container-offset: 15px;
 	--container-width: calc(var(--content-width) + (var(--container-offset) * 2));
 
 	// colors
 	--light-color: #fff;
+	--black-color: #0a0a0a;
 }
 
 @mixin font-face($font-family, $url, $weight, $style) {
