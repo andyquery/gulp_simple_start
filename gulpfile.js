@@ -77,8 +77,8 @@ function js() {
 function vendorJs(){
 	return src([
 		'node_modules/swiper/swiper-bundle.js',
-		'node_modules/gsap/dist/gsap.js',
-		'node_modules/gsap/dist/ScrollTrigger.js'
+		// 'node_modules/gsap/dist/gsap.js',
+		// 'node_modules/gsap/dist/ScrollTrigger.js'
 		])
 		.pipe(sourceMaps.init())
 		.pipe(concat('vendor.min.js'))
